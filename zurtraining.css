@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 15px 0 0 15px;
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.wrapper h2{
+    font-family: 'Calligraffitti', cursive;
+    font-size: 30px;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+/* form section */
+form{
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 100%;
+}
+/* form heading */
+form h4{
+    font-size: x-large;
+    margin: 7px 0;
+}
+.input-group{
+    width: 80%;
+    background: burlywood;
+}
+.input-box{
+    background: cadetblue;
+}
+/* inputs */
+form .input-box input{
+    margin-bottom: 10px;
+    margin-top: 7px ;
+    padding: 7px;
+    width: 80% ;
+    border-radius: 10px;
+    border:0;
+    font-size: large;
+}
+form .input-box input:focus{
+    outline: none;
+}
+/* input label */
+.input-box label,.input-box label span i{
+    font-size: x-large;
+}
+.input-box label span i{
+    margin-bottom: 10px;
+}
+
+/* icons */
+.input-group i{
+    font-size: large;
+    color: rgb(5, 14, 14);
+}
+/* radio input */
+.radio{
+    width: 20px !important;
+}
+.dob{
+    display: inline-block;
+    width: 25% !important;
+}
+/* input-box select inputs */
+.input-box select{
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+}
+/* submit button */
+.input-box button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    border: 0;
+    width: 80%;
+    font-size: large;
+    background: red;
+    color: white;
+}
+@media screen and (min-width: 750px){
+    .wrapper h2{        
+        font-size: 50px;        
+    }
+    form{
+        width: 70%;
+        margin: 0 auto;
+    }
+    form h4{
+        font-size: xx-large;
+        margin: 10px 0;
+    }
+    .input-group{
+        width: 80%;
+    }
+    .input-group i{
+       margin-right: 0;
+    }
+    
+    form .input-box input,.input-box button{
+        padding: 10px;
+        width: 350px;
+    }
+    
+}
+
